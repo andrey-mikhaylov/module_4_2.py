@@ -17,8 +17,8 @@ def test():
     test_function()
 
 
-if __name__ == '__main__':    test()
-
+if __name__ == '__main__':
+    test()
 
 
 """
