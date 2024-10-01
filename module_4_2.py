@@ -9,9 +9,15 @@ def test_function():
 
 
 def test():
+    try:
+        inner_function()
+    except Exception as e:
+        print(e)
+
     test_function()
 
 
+if __name__ == '__main__':    test()
 
 
 """
